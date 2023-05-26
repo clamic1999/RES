@@ -19,11 +19,17 @@
 
 .html {
   font-size: 62.5%;
-  
+  overflow-x: hidden;
 }
 
 body {
+  overflow-x: hidden;
   font-family: "Poppins", sans-serif;
+}
+.align{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 3rem;
 }
 
 /* ///////////..utility classes../////////// */
